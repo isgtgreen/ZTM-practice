@@ -1,12 +1,16 @@
 /* Selector {
   
 } */
+* {
+  text-align: right;
+}
+
 body {
 	background-image: url(background.avif);
 	background-size: cover;
 }
 
-h2 {
+h2, p {
 	color: #aa4139;
 	font-weight: bold;
 	text-align: center;
@@ -39,5 +43,4 @@ li {
 }
 
 #div2 {
-	background: rgba(255, 0, 0, 0.2);
-}
+  background: rgba(255, 0, 0, 0.2)
